@@ -1,0 +1,71 @@
+/* technical debt; 
+.imgplaceholder  re size absolute v %
+.left and .right padding size
+*/
+
+
+/* removing link decoration adding grey color*/
+a:link { text-decoration: none; color: grey; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
+body {
+    margin: 0;
+    background: #eee;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .header {
+    background: #1f2937;
+    height: 50px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #f9faf8;
+  }
+
+  .hero {
+    background: #1f2937;
+    height-min: 250px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #f9faf8;
+  }
+
+.button {
+
+}
+/* technical debt accrued re size absolute v % */
+.imgplaceholder {
+  height:200px;
+  width: 300px;
+  display: flex;
+  background-color: grey;
+  justify-content: center;
+  align-items: center;
+}
+
+  ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 8px;
+    align-items: center;
+  }
+  /* technical debt accrued re padding */
+  .left {
+    display: flex;
+      margin: 0;
+      padding: 50px;
+      gap: 8px;
+    }
+    /* technical debt accrued re padding */
+    .right {
+      display: flex;
+      margin: 0;
+      padding: 50px;
+      gap: 8px;
+    }  
